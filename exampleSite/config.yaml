@@ -126,13 +126,13 @@ params:
 
   # Hero
   hero:
-  enable: true
-  intro: "Hi, my name is"
-  title: "John Bruno."
-  subtitle: "Senior Technical Writer & Documentation Specialist"
-  content: "A dedicated Senior Technical Writer with expertise in API documentation, Agile methodologies, and 'docs as code' practices. I excel at creating clear, comprehensive, and accessible technical content that enhances user experience and product integration."
-  image: /images/hero.svg
-  bottomImage:
+   enable: true
+   intro: "Hi, my name is"
+   title: "John Bruno."
+   subtitle: "Senior Technical Writer & Documentation Specialist"
+   content: "A dedicated Senior Technical Writer with expertise in API documentation, Agile methodologies, and 'docs as code' practices. I excel at creating clear, comprehensive, and accessible technical content that enhances user experience and product integration."
+   image: /images/hero.svg
+   bottomImage:
     enable: true
   button:
     enable: true
@@ -150,27 +150,25 @@ params:
       - icon: /fav.png
         url: "https://j-bruno.co/"
 
+  # About
   about:
-  enable: true
-  title: "About Me"
-  image: "/images/me.png"
-  content: |-
-    I am a Senior Technical Writer with a rich background in developing high-quality technical documentation across various industries, including software, payments, and aerospace. Currently, I work at Shiji Payment Solutions in Atlanta, GA, where I lead documentation efforts for complex systems, enhancing clarity and user engagement.
-
-    My expertise includes API documentation using OpenAPI and Swagger, implementing 'docs as code' methodologies, and automating processes with custom scripting. I am passionate about improving user experience through detailed and accessible content.
-
-    I thrive in Agile environments, collaborating closely with engineering and QA teams to align documentation with product releases. My work spans internal guides, user manuals, release notes, and more, all designed to support users and stakeholders effectively.
-  skills:
     enable: true
-    title: "Here are a few technologies I've been working with recently:"
-    items:
-      - "Markdown"
-      - "OpenAPI & Swagger"
-      - "Bash Scripting"
-      - "Git"
-      - "Docusaurus & Netlify"
-      - "XML & DITA XML"
-      - "Agile Methodologies"
+    title: "About Me"
+    image: "/images/me.png"
+    content: |-
+      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
+
+      I am currently working on a project that will be used to help people find the best way to get around the city.
+    skills:
+      enable: true
+      title: "Here are a few technologies I've been working with recently:"
+      items:
+        - "HTML"
+        - "CSS"
+        - "JavaScript"
+        - "React"
+        - "Node"
+        - "Express"
 
   # Experience
   experience:
